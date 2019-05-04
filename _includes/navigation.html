@@ -1,5 +1,6 @@
-<nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-    {% endfor %}
+<nav class="navigation mid">
+  <li><a href="/">Home</a> <!-- # = tengi á id --></a>
+  <li><a href="/about.html">About</a></li><!--
+  --><li><a href="/blog.html">Info</a></li><!--
+  --><li><a href="/staff.html">Singers</a></li>
 </nav>
