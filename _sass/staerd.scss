@@ -1,0 +1,12 @@
+@media screen and (min-width: 60em) { 
+    .stuff {
+      display: grid; /* grid erfist til barna (child element only) */
+      grid-gap: 0;
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: 
+        "vinstri midja";
+      }
+    }
+
+
+

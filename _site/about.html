@@ -6,17 +6,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
 
-  </head>
-  <body class='hvit'>
-    <nav class="navigation mid">
+  <nav class="navigation mid">
   <li><a href="/">Home</a> <!-- # = tengi á id --></a>
   <li><a href="/about.html">About</a></li><!--
   --><li><a href="/blog.html">Info</a></li><!--
   --><li><a href="/staff.html">Singers</a></li>
 </nav>
-    <h1 id="about-page">About page</h1>
 
-<p>This page tells you a little bit about me.</p>
 
-  </body>
+  <div class="stuff">
+    <div class="vinstri">
+        <form>
+    <fieldset class="account-info">
+        <label>
+            Nafn
+            <input type="text" name="name" placeholder="Full name" required>
+        </label>
+        <label>
+        Heimilisfang
+        <input type="text" name="username">
+        </label>
+        <label>
+        Email
+        <input type="text" name="username">
+        </label>
+        <label>
+        kreditkort
+        <input type="password" name="password">
+        </label>
+        <label>
+            Fjöldi Miða
+            <select name="quantity" required>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </label>
+        <input type="checkbox" name="remember"> Vip
+        <input type="checkbox" name="remember"> Deluxe
+        <input type="checkbox" name="remember"> Venjulegt
+    </fieldset>       
+    <label>
+        Athugasemd
+        <br>
+        <textarea name="comments"></textarea>
+    </label>
+    <fieldset class="account-action">
+        <input class="btn" type="submit" name="submit" value="Panta">
+    </fieldset>
+</form>
+
+
+    </div>
+      </head>
+      <body class='midja hvit'>
+        <br> 
+<br>
+<div class='mid'>This page tells you a little bit about the company and the date and time of the concert</div>
+<br> 
+<br>
+<br>
+<div class='stuff'>
+  <div class='vinstri'></div>
+  <a>
+    <table class='midja'>
+        <thead>
+          <tr>
+            <th scope="col" colspan="2">Item</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody class='bakgrat'>
+          <tr>
+            <td class='bakgrat'>
+              <strong class="book-title">Don&#8217;t Make Me Think</strong>
+              <span class="text-offset">by Steve Krug</span>
+            </td>
+            <td class="item-stock hvit">In Stock</td>
+            <td class="item-qty hvit">1</td>
+            <td class="item-price hvit">$30.02</td>
+          </tr>
+          <tr>
+            <td>
+              <strong class="book-title">A Project Guide to UX Design</strong>
+              <span class="text-offset">by Russ Unger &#38; Carolyn Chandler</span>
+            </td>
+            <td class="item-stock svart">In Stock</td>
+            <td class="item-qty svart">2</td>
+            <td class="item-price svart">$52.94 <span class="text-offset item-multiple">$26.47 &#215; 2</span></td>
+          </tr>
+          <tr>
+            <td class='bakgrat'>
+              <strong class="book-title">Introducing HTML5</strong>
+              <span class="text-offset">by Bruce Lawson &#38; Remy Sharp</span>
+            </td>
+            <td class="item-stock hvit">Out of Stock</td>
+            <td class="item-qty hvit">1</td>
+            <td class="item-price hvit">$22.23</td>
+          </tr>
+          <tr>
+            <td>
+              <strong class="book-title">Bulletproof Web Design</strong>
+              <span class="text-offset">by Dan Cederholm</span>
+            </td>
+            <td class="item-stock svart">In Stock</td>
+            <td class="item-qty svart">1</td>
+            <td class="item-price svart">$30.17</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr class="text-offset bakhvit">
+            <td colspan="3">Subtotal</td>
+            <td>$135.36</td>
+          </tr>
+          <tr class="text-offset bakhvit">
+            <td colspan="3">Tax</td>
+            <td>$13.54</td>
+          </tr>
+          <tr>
+            <td colspan="3">Total</td>
+            <td>$148.90</td>
+          </tr>
+        </tfoot>
+    </table>
+  </a>
+</div>
+
+
+
+
+      </body>
+      <div>
+        <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+<button class="open-button" onclick="openForm()">Vefsíður</button>
+
+    <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+        <h1>Menu</h1>
+        <button class="btn2"><a href="/staff.html" style="color:white">Staff</a></button>
+        <button class="btn3"><a href="/blog.html" style="color:white">Blog</a></button>
+        <button class="btn"><a href="/about.html" style="color:white">About</a></button>
+        <button class="btn4"><a href="/" style="color:white">Home</a></button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+    </div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+      </div>
+    </div>
+  </div>
 </html>
