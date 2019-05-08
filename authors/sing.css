@@ -261,3 +261,224 @@ tfoot tr:last-child td:last-child {
   }
 }
 
+
+.open-button {
+  background-color: goldenrod;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  right: 28px;
+  width: 280px;
+  }
+  
+  .form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  }
+  
+  .form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: goldenrod;
+  }
+  
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  }
+  
+  .form-container .btn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  }
+  
+  .form-container .btn2 {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  }
+  
+  .form-container .btn3 {
+  background-color: darkmagenta;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  }
+  .btn3:active {
+  background-color: lightpink;
+  }
+  .btn2:active {
+  background-color: lightblue;
+  }
+  .btn:active {
+  background-color: lightgreen;
+  }
+  .btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .form-container .cancel {
+  background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  }
+  
+@media screen and (min-width: 37.5em) {
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  .open-button {
+  display: none;
+  background-color: goldenrod;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  right: 28px;
+  width: 280px;
+  }
+  
+  .form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  }
+  
+  .form-container {
+  display: none;
+  max-width: 300px;
+  padding: 10px;
+  background-color: goldenrod;
+  }
+  
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  }
+  
+  .form-container .btn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  }
+  
+  .form-container .btn2 {
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  }
+  
+  .form-container .btn3 {
+  background-color: darkmagenta;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 12px;
+  }
+  .form-container .btn4 {
+      background-color: pink;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom:10px;
+      opacity: 0.8;
+      border-radius: 12px;
+      }
+  .btn3:active {
+  background-color: lightpink;
+  }
+  .btn2:active {
+  background-color: lightblue;
+  }
+  .btn:active {
+  background-color: lightgreen;
+  }
+  .btn4:active {
+      background-color: lightpink;
+      }
+  .btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn4:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+  
+  
+  .form-container .cancel {
+  background-color: red;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  }
+}
+
+
+
+
+

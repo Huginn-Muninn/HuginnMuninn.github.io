@@ -16,7 +16,9 @@
 
   <div class="stuff">
     <div class="vinstri">
-        <form>
+        <br>
+<br>
+<form>
     <fieldset class="account-info">
         <label>
             Nafn
@@ -31,8 +33,7 @@
         <input type="text" name="username">
         </label>
         <label>
-        kreditkort
-        <input type="password" name="password">
+        kreditkort<input type="text" id="kortanumer" pattern="[0-9]{16}" maxlength="16" minlength="16" placeholder=" 0000000000000000" required><br>
         </label>
         <label>
             Fjöldi Miða
@@ -45,10 +46,13 @@
             </select>
         </label>
         <input type="checkbox" name="remember"> Vip
+        <br>
         <input type="checkbox" name="remember"> Deluxe
+        <br>
         <input type="checkbox" name="remember"> Venjulegt
     </fieldset>       
     <label>
+        <br>
         Athugasemd
         <br>
         <textarea name="comments"></textarea>
