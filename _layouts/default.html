@@ -5,19 +5,18 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-
+  </head>
+  <body class='hvit'>
   {% include navigation.html %}
   <div class="stuff">
     <div class="vinstri">
         {% include panta.html %}
     </div>
-      </head>
-      <body class='midja hvit'>
+    <div class="midja">
         {{ content }}
-      </body>
-      <div>
-        {% include menu.html %}
-      </div>
     </div>
-  </div>
+    <div>
+        {% include menu.html %}
+    </div>
+</body>
 </html>
