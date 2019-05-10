@@ -1,2 +1,2 @@
-# HuginnMuninn.github.io
+# https://huginn-muninn.github.io/HuginnMuninn.github.io/
 Lokaverkefni
