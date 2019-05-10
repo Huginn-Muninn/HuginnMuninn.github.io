@@ -21,11 +21,11 @@
 <form>
     <fieldset class="account-info">
         <label>
-            Nafn
+            Name
             <input type="text" name="name" placeholder="Full name" required>
         </label>
         <label>
-        Heimilisfang
+        Adress
         <input type="text" name="username">
         </label>
         <label>
@@ -33,10 +33,10 @@
         <input type="text" name="username">
         </label>
         <label>
-        kreditkort<input type="text" id="kortanumer" pattern="[0-9]{16}" maxlength="16" minlength="16" placeholder="0000 0000 0000 0000" required><br>
+        Credit Card<input type="text" id="kortanumer" pattern="[0-9]{16}" maxlength="16" minlength="16" placeholder="0000 0000 0000 0000" required><br>
         </label>
         <label>
-            Fjöldi Miða
+            Amount of tickets
             <select name="quantity" required>
                 <option value="1" selected>1</option>
                 <option value="2">2</option>
@@ -49,11 +49,11 @@
         <br>
         <input type="checkbox" name="remember"> Deluxe
         <br>
-        <input type="checkbox" name="remember"> Venjulegt
+        <input type="checkbox" name="remember"> Normal
     </fieldset>       
     <label>
         <br>
-        Athugasemd
+        Comment
         <br>
         <textarea name="comments"></textarea>
     </label>
@@ -112,7 +112,7 @@
 </style>
 </head>
 <body>
-<button class="open-button" onclick="openForm()">Vefsíður</button>
+<button class="open-button" onclick="openForm()">Pages</button>
 
     <div class="form-popup" id="myForm">
     <form action="/action_page.php" class="form-container">
