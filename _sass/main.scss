@@ -217,6 +217,9 @@ input {
   top: 23px;
   right: 28px;
   width: 280px;
+  position: absolute;
+  right: 100px;
+  top: 60px;
   }
   
   .form-popup {
@@ -231,6 +234,7 @@ input {
   .form-container {
   max-width: 300px;
   padding: 10px;
+  width: 280px;
   background-color: goldenrod;
   }
   
