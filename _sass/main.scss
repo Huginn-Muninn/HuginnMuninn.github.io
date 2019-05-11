@@ -464,3 +464,26 @@ input {
     display: none;
   }
 }
+
+
+.animation {
+  margin-left: 8em;
+  position: relative;
+  overflow: hidden;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.animation img {
+  text-align: center;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:0px; top:0px;}
+  75%  {left:200px; top:0px;}
+  100% {left:0px; top:0px;}
+}
