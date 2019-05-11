@@ -32,8 +32,8 @@ body{
   grid-template-columns: 1fr;
   grid-template-areas: 
     "topi"
-    "vinstri"
     "midja"
+    "vinstri"
     "haegri";
   }
   .top{
@@ -52,12 +52,19 @@ body{
   .boxarea{
     display: block;
     border: rgb(126, 228, 228);
+    background: #636466;
     width: auto;
     height: auto;
     max-height: 500;
-    max-width: 280;
+    max-width: 905;
     padding: 20px;
     margin: 10px;
+  }
+
+  .merki{
+    display: inline-block;
+    width: 500;
+    background: #636466;
   }
 
 @media screen and (min-width: 60em) { 
