@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
   </head>
   <body class='hvit'>
-  {% include navigation.html %}
-  <div class="stuff">
-    <div class="midja">
-      <div class="boxarea">
-      {{ content }}
+    <nav class="efri">
+      {% include navigation.html %}
+    </nav>
+    <nav class="nedri"></nav>
+    <div class="stuff">
+      <div class="midja">
+        <div class="boxarea">
+          {{ content }}
+        </div>
+      </div>
+      <div class="vinstri">
+        {% include panta.html %}
       </div>
     </div>
-    <div class="vinstri">
-        {% include panta.html %}
-    </div>
-
     <div>
         {% include menu.html %}
     </div>
+    <footer>
+      grát bar
+      links´n stuff
+      bakgrunnur
+    </footer>
 </body>
 </html>

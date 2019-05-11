@@ -56,13 +56,10 @@ body{
     max-height: 500;
     max-width: 905;
     padding: 20px;
-    margin: 150px;
+    margin: 100px;
   }
 
   .merki{
-    display: inline-block;
-    width: 500;
-    background: #636466;
     float: left;
   }
 
@@ -106,6 +103,24 @@ body{
   border-right: 0;
   border-radius: 0 4px 4px 0;
 }
+
+.rond{
+  display: grid; /* grid erfist til barna (child element only) */
+  grid-gap: 0;
+  width: 1000;
+  height: 75px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "efri" 
+    "nedri";
+}
+.efri{
+  grid-area: efri;
+}
+.nedri{
+  grid-area: nedri;
+}
+
 
 /* Tables */
 table {
