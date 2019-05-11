@@ -26,17 +26,32 @@ body{
   grid-gap: 0;
   grid-template-columns: 1fr;
   grid-template-areas: 
+    "topi"
     "vinstri"
     'midja'
     "haegri";
   }
+  .top{
+    grid-area: topi;
+  }
+  .midja{
+    grid-area: midja;
+  }
+  .vinstri{
+    grid-area: vinstri;
+  }
+  .haegri{
+    grid-area: haegri;
+  }
+
 
 @media screen and (min-width: 60em) { 
   .stuff {
     display: grid; /* grid erfist til barna (child element only) */
     grid-gap: 0;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
+    grid-template-areas:
+      "topi topi" 
       "vinstri midja";
   }
 }
