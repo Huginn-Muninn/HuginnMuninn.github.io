@@ -44,6 +44,9 @@ body{
     grid-area: haegri;
   }
 
+  .boxarea{
+    display: block;
+  }
 
 @media screen and (min-width: 60em) { 
   .stuff {
